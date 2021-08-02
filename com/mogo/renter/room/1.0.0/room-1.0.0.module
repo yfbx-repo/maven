@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mogo.renter",
+    "module": "room",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "2wi3xslw7vdhzpzjemen4hsjfi"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.mgzf.im",
+          "module": "biz_im",
+          "version": {
+            "requires": "1.2.20-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "room-1.0.0.aar",
+          "url": "room-1.0.0.aar",
+          "size": 1920991,
+          "sha512": "42d2b9a18eeeac058128fcd5ed2abb80ebc57b909cabbbfe518c41520cbe52427cce91106c315e24967bf6f16cea6562af1b5568aea97f28da1f2a943d1925b6",
+          "sha256": "16b9741b5a2b25f5f89260f7f3c03efe333fda1d696321de1f6b607bd47b9008",
+          "sha1": "616cfb7d59eec8a2882f33ea2f911dd65c9ecc1f",
+          "md5": "4750b3bbb46be4f003f66bbf5641ef0e"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.mogo.renter",
+          "module": "api",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.mogo.renter",
+          "module": "common",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.mgzf.im",
+          "module": "biz_im",
+          "version": {
+            "requires": "1.2.20-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "room-1.0.0.aar",
+          "url": "room-1.0.0.aar",
+          "size": 1920991,
+          "sha512": "42d2b9a18eeeac058128fcd5ed2abb80ebc57b909cabbbfe518c41520cbe52427cce91106c315e24967bf6f16cea6562af1b5568aea97f28da1f2a943d1925b6",
+          "sha256": "16b9741b5a2b25f5f89260f7f3c03efe333fda1d696321de1f6b607bd47b9008",
+          "sha1": "616cfb7d59eec8a2882f33ea2f911dd65c9ecc1f",
+          "md5": "4750b3bbb46be4f003f66bbf5641ef0e"
+        }
+      ]
+    }
+  ]
+}

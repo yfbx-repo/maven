@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mogo.renter",
+    "module": "common",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "i6cpp4ua2fccrkdmtephte4oxy"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "cn.jiguang.sdk",
+          "module": "jpush",
+          "version": {
+            "requires": "3.2.0"
+          }
+        },
+        {
+          "group": "cn.jiguang.sdk",
+          "module": "jcore",
+          "version": {
+            "requires": "1.2.7"
+          }
+        },
+        {
+          "group": "com.mgzf.lib",
+          "module": "lib_share",
+          "version": {
+            "requires": "0.5.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.zhihu.android",
+          "module": "matisse",
+          "version": {
+            "requires": "0.5.3-beta3"
+          }
+        },
+        {
+          "group": "com.mogo.renter",
+          "module": "base",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.mogo.renter",
+          "module": "vlayout",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "common-1.0.0.aar",
+          "url": "common-1.0.0.aar",
+          "size": 1658727,
+          "sha512": "637a7ad1737a47d108940a38365f6f9215cdce51152fe337f358c22cede2a24af97d370791e1616f2935f12bc9b7b8a098b4fedbc8c7891a6fbaa3746e44d90f",
+          "sha256": "45f1ead635d6bb6a78a155ce512ac7939eed3a0b168f69a316b3b75deb50c4a4",
+          "sha1": "1163cc76a0d2f26c3f6111e5f324d34a03a4c450",
+          "md5": "3201e215ad3d2eb3a6f3e6daf955b8aa"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "cn.jiguang.sdk",
+          "module": "jpush",
+          "version": {
+            "requires": "3.2.0"
+          }
+        },
+        {
+          "group": "cn.jiguang.sdk",
+          "module": "jcore",
+          "version": {
+            "requires": "1.2.7"
+          }
+        },
+        {
+          "group": "com.mgzf.lib",
+          "module": "lib_share",
+          "version": {
+            "requires": "0.5.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.zhihu.android",
+          "module": "matisse",
+          "version": {
+            "requires": "0.5.3-beta3"
+          }
+        },
+        {
+          "group": "com.mogo.renter",
+          "module": "base",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.mogo.renter",
+          "module": "vlayout",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "common-1.0.0.aar",
+          "url": "common-1.0.0.aar",
+          "size": 1658727,
+          "sha512": "637a7ad1737a47d108940a38365f6f9215cdce51152fe337f358c22cede2a24af97d370791e1616f2935f12bc9b7b8a098b4fedbc8c7891a6fbaa3746e44d90f",
+          "sha256": "45f1ead635d6bb6a78a155ce512ac7939eed3a0b168f69a316b3b75deb50c4a4",
+          "sha1": "1163cc76a0d2f26c3f6111e5f324d34a03a4c450",
+          "md5": "3201e215ad3d2eb3a6f3e6daf955b8aa"
+        }
+      ]
+    }
+  ]
+}

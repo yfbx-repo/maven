@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.yuxiaor.yxr_im</groupId>
+  <artifactId>yxr_im_debug</artifactId>
+  <version>4.1.7-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20210720.024124</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20210720024124</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>4.1.7-20210720.024124-1</value>
+        <updated>20210720024124</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>4.1.7-20210720.024124-1</value>
+        <updated>20210720024124</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

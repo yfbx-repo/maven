@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mogo.renter",
+    "module": "custom",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "sghawkjgu5hftjjounbi5ycaaa"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "custom-1.0.0.aar",
+          "url": "custom-1.0.0.aar",
+          "size": 1536295,
+          "sha512": "d11ea8b88d1bea190e85be6feb06a97c66e3c89e59165c03bad259ed2b008f22aa0796e49d192d7de5f7949b94260ec961a81e6d203f046200e1a64d38d808ce",
+          "sha256": "ba879e8404e1dc2b362b9bfdae401bf01b5ac81ca360f22640ebfc32e3caffcb",
+          "sha1": "913ad21592e7429ead02fdf065590ff9c491c560",
+          "md5": "2b7d9c31ed61ef20be5090ac7ba64548"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "com.mogo.renter",
+          "module": "common",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.mogo.renter",
+          "module": "api",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "com.github.Aspsine",
+          "module": "SwipeToLoadLayout",
+          "version": {
+            "requires": "1.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "custom-1.0.0.aar",
+          "url": "custom-1.0.0.aar",
+          "size": 1536295,
+          "sha512": "d11ea8b88d1bea190e85be6feb06a97c66e3c89e59165c03bad259ed2b008f22aa0796e49d192d7de5f7949b94260ec961a81e6d203f046200e1a64d38d808ce",
+          "sha256": "ba879e8404e1dc2b362b9bfdae401bf01b5ac81ca360f22640ebfc32e3caffcb",
+          "sha1": "913ad21592e7429ead02fdf065590ff9c491c560",
+          "md5": "2b7d9c31ed61ef20be5090ac7ba64548"
+        }
+      ]
+    }
+  ]
+}
