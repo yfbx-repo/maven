@@ -3,10 +3,10 @@
   <groupId>com.jarvan.fluwx</groupId>
   <artifactId>fluwx_no_pay_debug</artifactId>
   <versioning>
-    <release>1.0.1</release>
+    <release>1.0.8</release>
     <versions>
-      <version>1.0.1</version>
+      <version>1.0.8</version>
     </versions>
-    <lastUpdated>20210802081550</lastUpdated>
+    <lastUpdated>20210804041243</lastUpdated>
   </versioning>
 </metadata>
